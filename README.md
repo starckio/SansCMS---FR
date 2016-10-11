@@ -1,4 +1,4 @@
-# SansCMS
+# SansCMS by [Thom Weerd](https://github.com/thm)
 
 SansCMS is not a CMS, hence the name. SansCMS is merely a PHP + CSS framework to kickstart the development of a simple website. The primary aim of the project is to make it easier to have a simple portfolio website up and running without the hassle of having to code it from the ground up.
 
