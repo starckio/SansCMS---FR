@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Maintenance...</title>
+	<style>
+		/* Font
+		-------------------------------------------------- */
+		@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700);
+		
+		/* Reset & General
+		-------------------------------------------------- */* {
+			margin: 0;
+			padding: 0;
+			border: none;
+			outline: none;
+			font: inherit;
+			color: inherit;
+			line-height: inherit;
+			vertical-align: baseline;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		html, body {
+			min-height: 100%;
+		}
+		
+		/* Body
+		-------------------------------------------------- */
+		body {
+			margin: 10%;
+			font: italic 400 20px/34px "Crimson Text", Georgia, Cambria, "Times New Roman", Times serif;
+			letter-spacing: 0.15px;
+			text-align: center;
+			color: #333;
+			background: #fff;
+		}
+		#timer {
+			color: #bbb;
+		}
+	</style>
+</head>
+<body>
+	<p>Je mets à jour mon site web en ce moment, mais il devrait être de retour dans une minute ou deux.</p>
+	<p id="timer">— Actualisation automatique dans <span>60</span>s —</p>
+	
+	<script>
+		
+		var timer = document.getElementById("timer").getElementsByTagName('span')[0];
+		
+		setInterval(function() {
+		
+			var count = timer.innerHTML;
+		
+			if (timer.innerHTML <= 0) {
+				location.reload();
+			} else {
+				timer.innerHTML = parseInt(count) - 1;
+			}
+		
+		}, 1000);
+	
+	</script>
+
+</body>
+</html>
