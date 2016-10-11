@@ -8,7 +8,8 @@ Please feel free to contribute to the project, and to use the framework for your
 
 ## Demo
 
-* [demo.sanscms.com](http://demo.sanscms.com) = Dedicated demo
+* [sanscms.starck.io](http://sanscms.starck.io) = Démo dédié française [FR]
+* [demo.sanscms.com](http://demo.sanscms.com) = Dedicated demo [EN]
 * [thomweerd.com](http://thomweerd.com) = My personal website, also running on SansCMS
 
 ## Requirements
