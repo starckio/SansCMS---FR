@@ -129,3 +129,8 @@ You can change the `.md` Markdown file extension in `system/system.php` in the `
 ## Author
 
 SansCMS is a little project initiated and maintained by [@thomweerd](https://twitter.com/thomweerd).
+
+***
+
+## Leave a donation to thank me (Bitcoin/Altcoin)
+- <https://www.starck.io/donate>
